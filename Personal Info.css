@@ -1,0 +1,74 @@
+Body {
+  background-color: #313638;
+  font-family: 'Indie Flower', cursive;
+  color: #B4B8AB;
+}
+
+header {
+  background-color: #666666;
+  height: 200px;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 10px;
+  border-color: darkgrey;
+  border-width: 5px;
+  border-style: inset;
+  text-decoration: underline;
+
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+h3 {
+  width: 500px;
+  position: absolute;
+}
+
+#personalphoto {
+  float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    border-color: darkgrey;
+    border-width: 5px;
+    border-style: inset;
+
+}
+
+li {
+    float: left;
+    border-right: 1px solid #444444;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a :hover {
+    background-color: #888888;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+#spotifyetc {
+  height: 1000px;
+  float: right;
+}

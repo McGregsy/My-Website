@@ -1,0 +1,95 @@
+body {
+  background-color: #313638;
+  color: #B4B8AB;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+  background-color: #666666;
+  height: 80px;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 10px;
+  border-color: darkgrey;
+  border-width: 5px;
+  border-style: inset;
+  text-decoration: underline;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#column1 {
+  width: 27%;
+  float: left;
+  margin: 2%;
+  padding: 1%;
+  font-size: 20px;
+}
+
+#column2 {
+  width: 27%;
+  display: inline-block;
+  margin: 2%;
+  padding: 1%;
+  font-size: 20px;
+}
+
+#column3 {
+  width: 27%;
+  float: right;
+  margin: 2%;
+  padding: 1%;
+  font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+    border-color: darkgrey;
+    border-width: 5px;
+    border-style: inset;
+
+}
+
+li {
+    float: left;
+    border-right: 1px solid #444444;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a :hover {
+    background-color: #888888;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+footer {
+  text-align: center;
+}
+
+#twitterlinknav {
+  float: right;
+}
+
+main {
+  overflow:scroll;
+}
